@@ -25,6 +25,13 @@
 
 #### Browse the app
 Open the browser and visit the following address http://192.168.60.4:3000
-Add a new product by clicking the add products button and then refresh the browser to view the recently added product
+Add a new product by clicking the add products button and then refresh the browser to view the recently added product displayed. 
+
+### Troubleshooting
+Incase you are not able to add a new product. Check the firewall status in the backend using the commands below:
+* sudo ufw status
+* sudo ufw allow ssh
+* sudo ufw allow 2222/tcp
+* sudo ufw allow 5000/tcp
 
 
