@@ -1,5 +1,5 @@
 ---
-- name: Install nodejs and npm on the backend host
+- name: Install nodejs, npm and mongodb-clients on the backend host
   apt:
         state: present
         name:
