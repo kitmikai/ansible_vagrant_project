@@ -16,6 +16,7 @@ This project assumes a Linux operating system. To successfully run this project,
 - [**Vagrant**](https://linuxize.com/post/how-to-install-vagrant-on-ubuntu-18-04/)
 ### Installation 
 * Clone this [**repository**](https://github.com/kitmikai/ansible_vagrant_project.git)
+* If you are running on a computer with less than 8GB of RAM please edit the line with v.memory = 1024, and change to v.memory = 512
 * cd ansible_vagrant_project 
 * Run the command vagrant up
 * Run the command vagrant status to confirm that the virtual machines are running
