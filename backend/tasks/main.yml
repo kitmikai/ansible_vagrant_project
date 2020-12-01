@@ -6,6 +6,7 @@
               - nodejs
               - npm
               - build-essential
+              - mongodb-clients
 
 - name: Check git repo folder exists.
   stat: path=/opt/yolo/backend
