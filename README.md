@@ -18,6 +18,7 @@ This project assumes a Linux operating system. To successfully run this project,
 * Clone this [**repository**](https://github.com/kitmikai/ansible_vagrant_project.git)
 * cd ansible_vagrant_project 
 * Run the command vagrant up
+* Run the command vagrant status to confirm that the virtual machines are running
 * When Ansible has completed running, visit http://192.168.60.4:3000 and click add a product. Refresh the browser to view the recently added product. 
 
 ### Stopping the virtual machines
