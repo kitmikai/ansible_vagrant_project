@@ -28,10 +28,12 @@ Open the browser and visit the following address http://192.168.60.4:3000
 Add a new product by clicking the add products button and then refresh the browser to view the recently added product displayed. 
 
 ### Troubleshooting
-Incase you are not able to add a new product. Check the firewall status in the backend using the commands below:
-* sudo ufw status
-* sudo ufw allow ssh
-* sudo ufw allow 2222/tcp
-* sudo ufw allow 5000/tcp
-
+Incase you are not able to add a new product. SSH to the backend virtual machine and check the firewall status using the commands below:
+* vagrant ssh backend     - SSH to the backend
+* sudo ufw status         - Check if firewall is active
+* sudo ufw enable         - Enable the firewall to run at boot
+* sudo ufw allow ssh      - Allow SSH
+* sudo ufw allow 2222/tcp - Allow port 2222
+* sudo ufw allow 5000/tcp - Allow port 5000
+* sudo reboot             - Reboot the virtual machine
 
